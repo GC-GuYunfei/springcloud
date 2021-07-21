@@ -10,7 +10,12 @@ spring:
       name: config #配置文件名称
       profile: dev #读取后缀名称
       uri: http://localhost:3344
-
+  #读取rabbitMQ的相关配置
+  rabbitmq:
+    host: 8.136.17.98
+    port: 5672
+    username: admin
+    password: jmh123
 
 # eureka client
 eureka:
