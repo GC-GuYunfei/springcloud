@@ -14,6 +14,7 @@
         <module name="cloud-provider-payment8001" />
         <module name="cloud-eureka-server7002" />
         <module name="cloud-consumer-feign-hystrix-order80" />
+        <module name="cloud-stream-rabbitmq-provider8801" />
         <module name="cloud-product-common" />
         <module name="cloud-consumerzk-order80" />
         <module name="cloud-config-center-3344" />
@@ -22,6 +23,7 @@
         <module name="cloud-consumer-order80" />
         <module name="cloud-config-client-3366" />
         <module name="cloud-consumer-feign-order80" />
+        <module name="cloud-stream-rabbitmq-customer8802" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -41,6 +43,9 @@
       <module name="cloud-provider-payment8002" target="1.8" />
       <module name="cloud-provider-payment8004" target="1.8" />
       <module name="cloud-providerconsul-payment8006" target="11" />
+      <module name="cloud-stream-rabbitma-customer8802" target="11" />
+      <module name="cloud-stream-rabbitmq-customer8802" target="11" />
+      <module name="cloud-stream-rabbitmq-provider8801" target="11" />
       <module name="jiangfendou" target="1.8" />
       <module name="untitled" target="11" />
     </bytecodeTargetLevel>
