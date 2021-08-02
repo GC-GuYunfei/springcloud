@@ -14,7 +14,6 @@ spring:
       binders:
         message-center-input:
           destination: message-center
-          group: ${spring.application.name}
       rabbit:
         bindings:
           message-center-input:
@@ -26,7 +25,8 @@ spring:
               #区分异常添加到死信队列
               republishToDlq: true
       bindings:
-        message-center-input:
+        message-center:
+          group: jiangfendouA
           consumer:
             maxAttempts: 1
 eureka:

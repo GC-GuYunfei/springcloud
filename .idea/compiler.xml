@@ -22,6 +22,7 @@
         <module name="cloud-provider-hystrix-payment8001" />
         <module name="cloud-consumer-order80" />
         <module name="cloud-config-client-3366" />
+        <module name="cloud-stream-rabbitmq-customer8803" />
         <module name="cloud-consumer-feign-order80" />
         <module name="cloud-stream-rabbitmq-customer8802" />
       </profile>
@@ -45,6 +46,7 @@
       <module name="cloud-providerconsul-payment8006" target="11" />
       <module name="cloud-stream-rabbitma-customer8802" target="11" />
       <module name="cloud-stream-rabbitmq-customer8802" target="11" />
+      <module name="cloud-stream-rabbitmq-customer8803" target="11" />
       <module name="cloud-stream-rabbitmq-provider8801" target="11" />
       <module name="jiangfendou" target="1.8" />
       <module name="untitled" target="11" />
