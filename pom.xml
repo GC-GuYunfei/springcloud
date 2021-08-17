@@ -30,8 +30,9 @@
         <module>cloud-stream-rabbitmq-customer8803</module>
         <module>cloudalibaba-provider-payment9001</module>
         <module>cloudalibaba-private-payment9002</module>
-        <module>cloudalibaba</module>
         <module>cloudalibaba-consumer-nacos-order83</module>
+        <module>cloudalibaba-config-nacos-client3377</module>
+        <module>cloudalibaba-sentinel-service8401</module>
     </modules>
 
     <!-- 统一jar包和版本号的管理 -->
@@ -58,7 +59,6 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
-            <!-- spring cloud  Hoxton.SR1-->
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-dependencies</artifactId>
