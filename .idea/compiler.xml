@@ -8,7 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="cloud-eureka-server7001" />
         <module name="cloud-eureka-server7002" />
-        <module name="cloudalibaba" />
+        <module name="cloudalibaba-consumer-naocs-order84" />
         <module name="cloud-consumer-feign-hystrix-order80" />
         <module name="cloud-stream-rabbitmq-provider8801" />
         <module name="cloud-product-common" />
@@ -25,6 +25,8 @@
         <module name="cloud-config-client3355" />
         <module name="cloud-provider-payment8004" />
         <module name="cloud-provider-payment8001" />
+        <module name="cloudalibaba-provider-payment9004" />
+        <module name="cloudalibaba-provider-payment9003" />
         <module name="cloudalibaba-provider-payment9001" />
         <module name="cloud-gateway-gateway9527" />
         <module name="cloudalibaba-consumer-nacos-order83" />
@@ -57,8 +59,11 @@
       <module name="cloudalibaba" target="11" />
       <module name="cloudalibaba-config-nacos-client3377" target="11" />
       <module name="cloudalibaba-consumer-nacos-order83" target="11" />
+      <module name="cloudalibaba-consumer-naocs-order84" target="11" />
       <module name="cloudalibaba-private-payment9002" target="11" />
       <module name="cloudalibaba-provider-payment9001" target="11" />
+      <module name="cloudalibaba-provider-payment9003" target="11" />
+      <module name="cloudalibaba-provider-payment9004" target="11" />
       <module name="cloudalibaba-sentinel-service8401" target="11" />
       <module name="jiangfendou" target="1.8" />
       <module name="untitled" target="11" />
