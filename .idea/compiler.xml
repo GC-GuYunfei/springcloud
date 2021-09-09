@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="cloud-eureka-server7001" />
         <module name="cloud-eureka-server7002" />
+        <module name="seata-order-service2001" />
         <module name="cloudalibaba-consumer-naocs-order84" />
         <module name="cloud-consumer-feign-hystrix-order80" />
         <module name="cloud-stream-rabbitmq-provider8801" />
@@ -66,6 +67,7 @@
       <module name="cloudalibaba-provider-payment9004" target="11" />
       <module name="cloudalibaba-sentinel-service8401" target="11" />
       <module name="jiangfendou" target="1.8" />
+      <module name="seata-order-service2001" target="11" />
       <module name="untitled" target="11" />
     </bytecodeTargetLevel>
   </component>
