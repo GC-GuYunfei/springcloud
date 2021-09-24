@@ -1,10 +1,8 @@
 package com.jiangfendou.springcloud.dao;
 
 import com.jiangfendou.springcloud.domain.Order;
-import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 
-@Mapper
 public interface OrderDao {
 
     /**
