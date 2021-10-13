@@ -53,6 +53,7 @@ public class DataSourceProxyConfig {
     public DataSourceProxy dataSourceProxy(DataSource druidDataSource) {
         return new DataSourceProxy(druidDataSource);
     }
+
     @Bean(name = "sqlSessionFactory")
     public SqlSessionFactory sqlSessionFactoryBean(DataSourceProxy dataSourceProxy) throws Exception {
         SqlSessionFactoryBean bean = new SqlSessionFactoryBean();

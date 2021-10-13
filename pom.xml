@@ -38,7 +38,6 @@
         <module>cloudalibaba-consumer-naocs-order84</module>
         <module>seata-order-service2001</module>
         <module>seata-storage-service2002</module>
-        <module>seata-account-service2003</module>
     </modules>
 
     <!-- 统一jar包和版本号的管理 -->
